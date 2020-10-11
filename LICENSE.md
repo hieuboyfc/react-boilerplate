@@ -2,6 +2,23 @@ The MIT License (MIT)
 
 Copyright (c) 2020 Hiếu Boy
 
+ "**/*.{js,jsx,css,json}": 
+[
+    "eslint src",
+    "npm run format",
+    "git add"
+],
+"*.{js,jsx,ts,tsx}": [
+    "prettier --write",
+    "eslint --fix",
+    "git add"
+],
+"*.{html,css,less,ejs,json}": [
+    "prettier --write",
+    "eslint --fix",
+    "git add"
+]
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

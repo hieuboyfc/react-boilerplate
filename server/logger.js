@@ -2,7 +2,7 @@
 
 const chalk = require('chalk');
 const ip = require('ip');
-const divider = chalk.gray('\n----------------------------------------------');
+const divider = chalk.gray('\n---------------------------------------------');
 
 /**
  * Logger middleware, you can customize it to make messages more personal
